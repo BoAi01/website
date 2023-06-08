@@ -1,5 +1,12 @@
 <!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        body {
+            width: 45%;
+            margin: 0 auto; /* Center the body horizontally */
+        }
+    </style>
 
   <title>Bo Ai</title>
   
@@ -13,12 +20,11 @@
 </head>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YDE6X29CCQ"></script>
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-YDE6X29CCQ"></script>-->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-YDE6X29CCQ');
 </script>
 
@@ -33,11 +39,14 @@
                 <name>Bo Ai</name>
               </p>
               <p>
-                I am a fourth-year undergraduate student in Computer Science and Statistics at the <a href="https://nus.edu.sg/">National University of Singapore</a> (NUS). I work at the intersection of robotics, machine learning, and computer vision.
+                I am an undergraduate in Computer Science and Statistics under the Turing Program, <a href="https://nus.edu.sg/">National University of Singapore (NUS)</a>. I work at the intersection of robotics, machine learning, and computer vision, with the goal of enabling robots to act intelligently in the <em>real</em> world.
               </p>
               <p>
-                Currently, I seek to endow robots with human-like navigation capabilities. I am advised by Prof <a href="https://www.comp.nus.edu.sg/~dyhsu/">David Hsu</a> at the <a href="https://adacomp.comp.nus.edu.sg/">Adaptive Computing Laboratory</a>. In my earlier years, I worked on video-based action recognition with Prof <a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a>. I received the <a href="https://www.comp.nus.edu.sg/news/2022-ourp-ocp-2122/">NUS Outstanding Undergraduate Research Prize</a> and the <a href="https://www.comp.nus.edu.sg/entrepreneurship/awards/iawinners/">NUS School of Computing Innovation Prize</a> in 2022.
+                Currently, I am working on visual-tactile perception for object manipulation at the <a href="https://svl.stanford.edu/">Stanford Vision and Learning Lab (SVL)</a>, advised by <a href="https://yunzhuli.github.io/">Yunzhu Li</a> and <a href="https://jiajunwu.com/">Jiajun Wu</a>. Previously, I worked with <a href="https://www.comp.nus.edu.sg/~dyhsu/">David Hsu</a> on low-level control and system architecture design for long-horizon visual navigation. In my earliest undergrad years, I explored video-based action recognition under <a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a>.
               </p>
+<!--              <p>-->
+<!--                At NUS, I received the <a href="https://www.comp.nus.edu.sg/news/2022-ourp-ocp-2122/">NUS Outstanding Undergraduate Research Prize</a> and the <a href="https://www.comp.nus.edu.sg/entrepreneurship/awards/iawinners/">NUS School of Computing Innovation Prize</a>.-->
+<!--              </p>-->
               <p style="text-align:center">
                 <a href="mailto:bo.ai@u.nus.edu">Email</a> &nbsp/&nbsp
 <!--                <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp-->
@@ -48,19 +57,20 @@
                 <a href="https://www.linkedin.com/in/bo-ai/">LinkedIn</a>
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
+            <td style="padding:1.5%;width:20%;max-width:20%">
               <a href="general_images/linkedin-pic.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="general_images/linkedin-pic.jpeg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
+<!--            <td style="padding:20px;width:100%;vertical-align:middle">-->
               <heading>Research</heading>
               <p>
-                I am passionate about robotics, machine learning, and computer vision. I have been focusing on enabling robot to navigate across diverse environments with minial local sensing and prior global information of the environment, just like humans do. To this end, I enable robots to reason by integrating learning and planning, and to act robustly in the real world through learning generalizable representations, large-scale training, and sim-to-real transfer.
+<!--                I am passionate about robotics, machine learning, and computer vision. I have been focusing on enabling robot to navigate across diverse environments with minial local sensing and prior global information of the environment, just like humans do. To this end, I enable robots to reason by integrating learning and planning, and to act robustly in the real world through learning generalizable representations, large-scale training, and sim-to-real transfer.-->
 
-                Representative papers are <span class="highlight">highlighted</span>.
+<!--                Representative papers are <span class="highlight">highlighted</span>.-->
+                More in progress...
               </p>
             </td>
           </tr>
@@ -70,7 +80,7 @@
 <!-- highlighted papers should use bgcolor="#ffffd0" -->
 
 <tr onmouseout="decision_start()" onmouseover="decision_start()"  bgcolor="#ffffd0">
-  <td style="padding:20px;width:25%;vertical-align:middle">
+  <td style="padding:10px;width:15%;vertical-align:middle">
     <div class="one">
       <div class="two" id='decision_image'><video  width=100% height=100% muted autoplay loop>
       <source src="projects/decision/decision-demo.mp4" type="video/mp4">
@@ -89,7 +99,7 @@
       decision_start()
     </script>
   </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
+  <td style="padding:10px;width:85%;vertical-align:middle">
     <a href="https://adacomp.comp.nus.edu.sg/inet/">
       <papertitle>Deep Visual Navigation under Partial Observability</papertitle>
     </a>
@@ -101,26 +111,28 @@
     <br>
     <em>International Conference on Robotics and Automation (ICRA)</em>, 2022
     <br>
-    <a href="https://adacomp.comp.nus.edu.sg/inet/">project page</a>
+    <a href="https://adacomp.comp.nus.edu.sg/inet/">Project page</a>
     /
-    <a href="https://arxiv.org/abs/2109.07752">paper</a>
+    <a href="https://arxiv.org/abs/2109.07752">Paper</a>
     /
-    <a href="https://www.youtube.com/watch?v=N0wa04ZPZN0">demo</a>
+    <a href="https://www.youtube.com/watch?v=N0wa04ZPZN0">Demo</a>
     <p></p>
     <p>
-    We proposed an end-to-end learned controller that enables our Spot robot to navigate across varied environments with complex multimodal behaviors under partial observations.
+    A learned controller that enables our Spot robot to navigate across varied environments with complex multimodal behaviors under partial observations.
     </p>
   </td>
 </tr>
 
 <tr onmouseout="contrax_stop()" onmouseover="contrax_start()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
+  <td style="padding:10px;width:15%;vertical-align:middle">
     <div class="one">
-      <div class="two" id='contrax_image'><video width=100% height=100% muted autoplay loop>
+      <div class="two" id='contrax_image'><video width=80% height=80% muted autoplay loop>
       <source src="" type="video/mp4">
       Your browser does not support the video tag.
       </video></div>
-      <img src='projects/contrax/visualization.png' width=100%>
+      <div style="text-align: center;">
+      <img src="projects/contrax/visualization.png" width="90%" alt="Visualization">
+      </div>
     </div>
     <script type="text/javascript">
       function decision_start() {
@@ -133,25 +145,24 @@
       decision_start()
     </script>
   </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
+  <td style="padding:10px;width:85%;vertical-align:middle">
     <a href="https://aclanthology.org/2022.aacl-main.84">
       <papertitle>Whodunit? Learning to Contrast for Authorship Attribution</papertitle>
     </a>
     <br>
-    <strong>Bo Ai</strong>, Yuchen Wang,
-    <a href="https://www.linkedin.com/in/yugin-tan-1479461a4/?originalSubdomain=sg">Yugin Tan</a>,
+    <strong>Bo Ai</strong>, Yuchen Wang, Yugin Tan,
     <a href="https://samsontmr.github.io/">Samson Tan</a>
     <br>
     <em>Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and International Joint Conference on Natural Language Processing (AACL-IJCNLP, Long Paper)</em>, 2022
     <br>
 <!--    <a href="https://adacomp.comp.nus.edu.sg/inet/">project page</a>-->
 <!--    /-->
-    <a href="https://aclanthology.org/2022.aacl-main.84/">paper</a>
+    <a href="https://aclanthology.org/2022.aacl-main.84/">Paper</a>
     /
-    <a href="https://www.youtube.com/watch?v=DpT181KgYlI">talk</a>
+    <a href="https://www.youtube.com/watch?v=DpT181KgYlI">Talk</a>
     <p></p>
     <p>
-    We made the first attempt to integrate contrastive representation learning with supervised LLM fine-tuning for authorship attribution.
+    Contrastive learning enables learning author-specific representations, which in turn improves authorship identification performance.
     </p>
   </td>
 </tr>
@@ -242,36 +253,33 @@
 
         </tbody></table>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Academic Service</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="general_images/ieee-ras-logo.png" width="100%"></td>
+<!--          <tr>-->
+<!--            <td>-->
+<!--              <heading>Academic Service</heading>-->
+<!--            </td>-->
+<!--          </tr>-->
+        <heading>Academic Service</heading>
+<!--        </tbody></table>-->
+<!--        <table width="100%" align="center" border="0" cellpadding="20"><tbody>-->
+<!--            <td style="padding:10px;width:15%;vertical-align:middle"><img src="general_images/ieee-ras-logo.png" width="100%"></td>-->
             <td width="75%" valign="center">
-              Conference Reviewer, IROS 2023, ICRA 2023, ICRA 2022, IROS 2022
-              </br>
-              Journal Reviewer, RA-L
+              Reviewer, RA-L, IROS 2023, ICRA 2023, ICRA 2022, IROS 2022
             </td>
           </tr>
 
-        </tbody></table>
+        </tbody> </table>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+<!--          <tr>-->
+<!--            <td>-->
+<!--              <heading>Teaching</heading>-->
+<!--            </td>-->
+<!--          </tr>-->
+        <heading>Teaching</heading>
+<!--        </tbody></table>-->
+<!--        <table width="100%" align="center" border="0" cellpadding="20"><tbody>-->
           <tr>
-            <td>
-              <heading>Teaching</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="general_images/nus-soc-logo.jpeg" width="100%"></td>
+<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="general_images/nus-soc-logo.jpeg" width="100%"></td>-->
             <td width="75%" valign="center">
-              Teaching Assistant
-              </br>
               CS1101S Programming Methodology, Fall 2020
               </br>
               <a href="https://knmnyn.github.io/cs3244-2210/">CS3244 Machine Learning, Fall 2022</a>
@@ -282,13 +290,10 @@
 
         </tbody></table>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Awards and Honors</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+
+        <heading>Awards and Honors</heading>
+<!--        </tbody></table>-->
+<!--        <table width="100%" align="center" border="0" cellpadding="20"><tbody>-->
           <tr>
             <td width="100%" valign="center">
             2022: Dean’s List (5%), NUS School of Computing </br>
@@ -298,7 +303,7 @@
             2022: Certificate of Distinction in AI, NUS School of Computing </br>
             2022: Certificate for Top Students x 2, NUS School of Computing </br>
             2021: Certificate for Top Students x 1, NUS School of Computing </br>
-            2018: NUS Science and Technology Scholarship (~150K USD), NUS & Singapore Ministry of Education </br>
+            2018: NUS Science and Technology Scholarship, NUS & Singapore Ministry of Education </br>
             </td>
           </tr>
 					
@@ -308,7 +313,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Template from <a href="https://jonbarron.info/">Jon Barron</a>. Last updated: Mar 19, 2023
+                Template from <a href="https://jonbarron.info/">Jon Barron</a>. Last updated: June 7, 2023
               </p>
             </td>
           </tr>
