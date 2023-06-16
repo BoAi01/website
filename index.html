@@ -8,6 +8,17 @@
             width: 45%;
             margin: 0 auto; /* Center the body horizontally */
         }
+        .underline-on-hover {
+          text-decoration: none;
+          color: black;
+        }
+        .underline-on-hover:hover {   /* underline text when mouse hovering */
+          text-decoration: underline;
+        }
+        div {      /* auto wrap and indent the second line */
+          padding-left: 2.8em;
+          text-indent: -2.8em;
+        }
     </style>
 
   <title>Bo Ai</title>
@@ -19,6 +30,7 @@
   <link rel="icon" href="general_images/nus-logo-small.png">
 <!--  <a href="images/linkedin-pic.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/linkedin-pic.jpeg" class="hoverZoomLink"></a>-->
 </head>
+
 
 <!-- Google tag (gtag.js) -->
 <!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-YDE6X29CCQ"></script>-->
@@ -79,6 +91,51 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 <!-- highlighted papers should use bgcolor="#ffffd0" -->
+
+<tr onmouseout="tidy_start()" onmouseover="tidy_start()">
+  <td style="padding:10px;width:15%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='tidy_image'><video  width=100% height=100% muted autoplay loop>
+      <source src="projects/llm-tidy-rssw/LLM-TAMP-RSSW.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+<!--      <img src='projects/decision/decision-cover.jpeg' width=100% height=56%>-->
+    </div>
+    <script type="text/javascript">
+      function decision_start() {
+        document.getElementById('decision_image').style.opacity = "1";
+      }
+
+      function decision_stop() {
+        document.getElementById('decision_image').style.opacity = "0";
+      }
+      decision_start()
+    </script>
+  </td>
+  <td style="padding:10px;width:85%;vertical-align:middle">
+    <a href="https://openreview.net/pdf?id=vuSI9mhDaBZ">
+      <papertitle>Integrating Common Sense and Planning with Large Language Models for Room Tidying</papertitle>
+    </a>
+    <br>
+    Zhanxin Wu,
+    <strong>Bo Ai</strong>,
+    <a href="https://www.comp.nus.edu.sg/~dyhsu/">David Hsu</a>
+    <br>
+
+    <em><a href="https://zt-yang.github.io/rss23-l4tamp-workshop/" class="underline-on-hover">Robotics: Science and Systems (RSS) Workshop on Learning for Task and Motion Planning</a></em>, 2023
+    <br>
+<!--    <a href="https://adacomp.comp.nus.edu.sg/inet/">Project page</a>-->
+<!--    /-->
+    <a href="https://openreview.net/pdf?id=vuSI9mhDaBZ">Paper</a>
+<!--    /-->
+<!--    <a href="https://www.youtube.com/watch?v=N0wa04ZPZN0">Demo</a>-->
+    <p></p>
+    <p>
+    A framework that enables an agent to put out-of-place objects back in place with partial map information
+      by exploiting commonsense knowledge in large language models (LLMs).
+    </p>
+  </td>
+</tr>
 
 <tr onmouseout="decision_start()" onmouseover="decision_start()"  bgcolor="#ffffd0">
   <td style="padding:10px;width:15%;vertical-align:middle">
@@ -254,11 +311,6 @@
 
         </tbody></table>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-<!--          <tr>-->
-<!--            <td>-->
-<!--              <heading>Academic Service</heading>-->
-<!--            </td>-->
-<!--          </tr>-->
         <heading>Academic Service</heading>
 <!--        </tbody></table>-->
 <!--        <table width="100%" align="center" border="0" cellpadding="20"><tbody>-->
@@ -270,20 +322,15 @@
 
         </tbody> </table>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-<!--          <tr>-->
-<!--            <td>-->
-<!--              <heading>Teaching</heading>-->
-<!--            </td>-->
-<!--          </tr>-->
         <heading>Teaching</heading>
 <!--        </tbody></table>-->
 <!--        <table width="100%" align="center" border="0" cellpadding="20"><tbody>-->
           <tr>
 <!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="general_images/nus-soc-logo.jpeg" width="100%"></td>-->
             <td width="75%" valign="center">
-              <a href="https://www.comp.nus.edu.sg/~cs1101s/">CS1101S Programming Methodology, Fall 2020</a>
+              <a href="https://www.comp.nus.edu.sg/~cs1101s/" class="underline-on-hover">CS1101S Programming Methodology, Fall 2020</a>
               </br>
-              <a href="https://knmnyn.github.io/cs3244-2210/">CS3244 Machine Learning, Fall 2022</a>
+              <a href="https://knmnyn.github.io/cs3244-2210/" class="underline-on-hover">CS3244 Machine Learning, Fall 2022</a>
               </br>
               CS5478 Intelligent Robots: Algorithms and Systems, Spring 2023
             </td>
@@ -297,14 +344,14 @@
 <!--        <table width="100%" align="center" border="0" cellpadding="20"><tbody>-->
           <tr>
             <td width="100%" valign="center">
-            2022: Dean’s List (5%), NUS School of Computing </br>
-            2022: Global Young Scientists Summit 2023, Singapore National Research Foundation </br>
-            2022: NUS Outstanding Undergraduate Researcher Prize (0.4%), NUS </br>
-            2022: NUS School of Computing Innovation Prize (0.2%), NUS School of Computing & Singapore Computer Society </br>
-            2022: Certificate of Distinction in AI, NUS School of Computing </br>
-            2022: Certificate for Top Students x 2, NUS School of Computing </br>
-            2021: Certificate for Top Students x 1, NUS School of Computing </br>
-            2018: NUS Science and Technology Scholarship, NUS & Singapore Ministry of Education </br>
+            <div>2022: Dean's List (5%), NUS School of Computing </div>
+            <div> 2022: Global Young Scientists Summit 2023, Singapore National Research Foundation </div>
+            <div>2022: <a href="https://www.comp.nus.edu.sg/news/2022-ourp-ocp-2122/" class="underline-on-hover">NUS Outstanding Undergraduate Research Prize</a> (0.4%), NUS </div>
+            <div>2022: <a href="https://www.comp.nus.edu.sg/entrepreneurship/awards/iawinners/" class="underline-on-hover">NUS School of Computing Innovation Prize</a> (0.2%), NUS School of Computing & Singapore Computer Society </div>
+            <div>2022: Certificate of Distinction in AI, NUS School of Computing </div>
+            <div>2022: Certificate for Top Students x 2, NUS School of Computing </div>
+            <div>2021: Certificate for Top Students x 1, NUS School of Computing </div>
+            <div> 2018: NUS Science and Technology Scholarship, NUS & Singapore Ministry of Education </div>
             </td>
           </tr>
 					
@@ -314,7 +361,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Template from <a href="https://jonbarron.info/">Jon Barron</a>. Last updated: June 7, 2023
+                Template from <a href="https://jonbarron.info/">Jon Barron</a>. Last updated: June 15, 2023
               </p>
             </td>
           </tr>
