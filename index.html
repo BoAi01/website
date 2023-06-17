@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,12 +24,11 @@
   </style>
 
   <title>Bo Ai</title>
-
   <meta name="author" content="Bo Ai">
-
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" href="general_images/nus-logo-small.png">
 </head>
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YDE6X29CCQ"></script>
@@ -39,10 +39,11 @@
   gtag('config', 'G-YDE6X29CCQ');
 </script>
 
+
 <body>
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
+<!--    <tr style="padding:10px">-->
+<!--      <td style="padding:0px">-->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
@@ -75,12 +76,8 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
-<!--            <td style="padding:20px;width:100%;vertical-align:middle">-->
               <heading>Research</heading>
               <p>
-<!--                I am passionate about robotics, machine learning, and computer vision. I have been focusing on enabling robot to navigate across diverse environments with minial local sensing and prior global information of the environment, just like humans do. To this end, I enable robots to reason by integrating learning and planning, and to act robustly in the real world through learning generalizable representations, large-scale training, and sim-to-real transfer.-->
-
-<!--                Representative papers are <span class="highlight">highlighted</span>.-->
                 More in progress...
               </p>
             </td>
@@ -90,81 +87,56 @@
 
 <!-- highlighted papers should use bgcolor="#ffffd0" -->
 
-<tr onmouseout="tidy_start()" onmouseover="tidy_start()">
-  <td style="padding:10px;width:15%;vertical-align:middle">
+<tr>
+  <td style="padding:0px;width:15%;vertical-align:middle">
     <div class="one">
       <div class="two" id='tidy_image'><video  width=100% height=100% muted autoplay loop>
       <source src="projects/llm-tidy-rssw/LLM-TAMP-RSSW.mp4" type="video/mp4">
       Your browser does not support the video tag.
-      </video></div>
-<!--      <img src='projects/decision/decision-cover.jpeg' width=100% height=56%>-->
+      </video>
+      </div>
     </div>
-    <script type="text/javascript">
-      function decision_start() {
-        document.getElementById('decision_image').style.opacity = "1";
-      }
-
-      function decision_stop() {
-        document.getElementById('decision_image').style.opacity = "0";
-      }
-      decision_start()
-    </script>
   </td>
-  <td style="padding:10px;width:85%;vertical-align:middle">
+  <td style="padding:20px;width:85%;vertical-align:middle">
     <a href="https://openreview.net/pdf?id=vuSI9mhDaBZ">
       <papertitle>Integrating Common Sense and Planning with Large Language Models for Room Tidying</papertitle>
     </a>
     <br>
-    Zhanxin Wu,
-    <strong>Bo Ai</strong>,
-    <a href="https://www.comp.nus.edu.sg/~dyhsu/" class="underline-on-hover">David Hsu</a>
+      Zhanxin Wu,
+      <strong>Bo Ai</strong>,
+      <a href="https://www.comp.nus.edu.sg/~dyhsu/" class="underline-on-hover">David Hsu</a>
     <br>
 
     <em><a href="https://zt-yang.github.io/rss23-l4tamp-workshop/" class="underline-on-hover">Robotics: Science and Systems (RSS) Workshop on Learning for Task and Motion Planning</a></em>, 2023
-    <br>
-<!--    <a href="https://adacomp.comp.nus.edu.sg/inet/">Project page</a>-->
-<!--    /-->
-    <a href="https://openreview.net/pdf?id=vuSI9mhDaBZ">Paper</a>
-<!--    /-->
-<!--    <a href="https://www.youtube.com/watch?v=N0wa04ZPZN0">Demo</a>-->
-    <p></p>
+      <a href="https://openreview.net/pdf?id=vuSI9mhDaBZ">Paper</a>
     <p>
-    A framework that enables an agent to put out-of-place objects back in place with partial map information
-      by exploiting commonsense knowledge in large language models (LLMs).
+    A framework that enables an agent to put out-of-place objects back in place with partial map information by exploiting commonsense knowledge in large language models (LLMs).
     </p>
   </td>
 </tr>
 
-<tr onmouseout="decision_start()" onmouseover="decision_start()"  bgcolor="#ffffd0">
-  <td style="padding:10px;width:15%;vertical-align:middle">
+<tr bgcolor="#ffffd0">
+  <td style="padding:0px;width:15%;vertical-align:middle">
     <div class="one">
       <div class="two" id='decision_image'><video  width=100% height=100% muted autoplay loop>
       <source src="projects/decision/decision-demo.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video></div>
-<!--      <img src='projects/decision/decision-cover.jpeg' width=100% height=56%>-->
     </div>
-    <script type="text/javascript">
-      function decision_start() {
-        document.getElementById('decision_image').style.opacity = "1";
-      }
-
-      function decision_stop() {
-        document.getElementById('decision_image').style.opacity = "0";
-      }
-      decision_start()
-    </script>
   </td>
-  <td style="padding:10px;width:85%;vertical-align:middle">
+
+  <td style="padding:20px;width:85%;vertical-align:middle">
     <a href="https://adacomp.comp.nus.edu.sg/inet/">
       <papertitle>Deep Visual Navigation under Partial Observability</papertitle>
     </a>
+
     <br>
     <strong>Bo Ai</strong>,
     <a href="https://www.linkedin.com/in/wei-gao-9526a477/?originalSubdomain=sg" class="underline-on-hover">Wei Gao</a>,
     <a href="https://connect.vin/about/" class="underline-on-hover">Vinay</a>,
     <a href="https://www.comp.nus.edu.sg/~dyhsu/" class="underline-on-hover">David Hsu</a>
     <br>
+
     <em>International Conference on Robotics and Automation (ICRA)</em>, 2022
     <br>
     <a href="https://adacomp.comp.nus.edu.sg/inet/">Project page</a>
@@ -172,15 +144,15 @@
     <a href="https://arxiv.org/abs/2109.07752">Paper</a>
     /
     <a href="https://www.youtube.com/watch?v=N0wa04ZPZN0">Demo</a>
-    <p></p>
+
     <p>
     A learned controller that enables our Spot robot to navigate across varied environments with complex multimodal behaviors under partial observations.
     </p>
   </td>
 </tr>
 
-<tr onmouseout="contrax_stop()" onmouseover="contrax_start()">
-  <td style="padding:10px;width:15%;vertical-align:middle">
+<tr>
+  <td style="padding:0px;width:15%;vertical-align:middle">
     <div class="one">
       <div class="two" id='contrax_image'><video width=80% height=80% muted autoplay loop>
       <source src="" type="video/mp4">
@@ -190,29 +162,20 @@
       <img src="projects/contrax/visualization.png" width="90%" alt="Visualization">
       </div>
     </div>
-    <script type="text/javascript">
-      function decision_start() {
-        document.getElementById('decision_image').style.opacity = "1";
-      }
 
-      function decision_stop() {
-        document.getElementById('decision_image').style.opacity = "0";
-      }
-      decision_start()
-    </script>
   </td>
-  <td style="padding:10px;width:85%;vertical-align:middle">
+  <td style="padding:20px;width:85%;vertical-align:middle">
     <a href="https://aclanthology.org/2022.aacl-main.84">
       <papertitle>Whodunit? Learning to Contrast for Authorship Attribution</papertitle>
     </a>
+
     <br>
     <strong>Bo Ai</strong>, Yuchen Wang, Yugin Tan,
     <a href="https://samsontmr.github.io/" class="underline-on-hover">Samson Tan</a>
     <br>
     <em>Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and International Joint Conference on Natural Language Processing (AACL-IJCNLP, Long Paper)</em>, 2022
     <br>
-<!--    <a href="https://adacomp.comp.nus.edu.sg/inet/">project page</a>-->
-<!--    /-->
+
     <a href="https://aclanthology.org/2022.aacl-main.84/">Paper</a>
     /
     <a href="https://www.youtube.com/watch?v=DpT181KgYlI">Talk</a>
@@ -223,150 +186,56 @@
   </td>
 </tr>
 
-<!--<tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()"  bgcolor="#ffffd0">-->
-<!--  <td style="padding:20px;width:25%;vertical-align:middle">-->
-<!--    <div class="one">-->
-<!--      <div class="two" id='dreamfusion_image'><video  width=100% height=100% muted autoplay loop>-->
-<!--      <source src="images/dreamfusion.mp4" type="video/mp4">-->
-<!--      Your browser does not support the video tag.-->
-<!--      </video></div>-->
-<!--      <img src='images/dreamfusion.jpg' width="160">-->
-<!--    </div>-->
-<!--    <script type="text/javascript">-->
-<!--      function dreamfusion_start() {-->
-<!--        document.getElementById('dreamfusion_image').style.opacity = "1";-->
-<!--      }-->
 
-<!--      function dreamfusion_stop() {-->
-<!--        document.getElementById('dreamfusion_image').style.opacity = "0";-->
-<!--      }-->
-<!--      dreamfusion_stop()-->
-<!--    </script>-->
-<!--  </td>-->
-<!--  <td style="padding:20px;width:75%;vertical-align:middle">-->
-<!--    <a href="https://dreamfusion3d.github.io/">-->
-<!--      <papertitle>DreamFusion: Text-to-3D using 2D Diffusion</papertitle>-->
-<!--    </a>-->
-<!--    <br>-->
-<!--    <a href="https://cs.stanford.edu/~poole/">Ben Poole</a>,-->
-<!--    <a href="https://www.ajayj.com/">Ajay Jain</a>,-->
-<!--    <strong>Jonathan T. Barron</strong>,-->
-<!--		<a href="https://bmild.github.io/">Ben Mildenhall</a>-->
-<!--    <br>-->
-<!--    <em>ICLR</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>-->
-<!--    <br>-->
-<!--    <a href="https://dreamfusion3d.github.io/">project page</a>-->
-<!--    /-->
-<!--    <a href="https://arxiv.org/abs/2209.14988">arXiv</a>-->
-<!--    /-->
-<!--    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a>-->
-<!--    <p></p>-->
-<!--    <p>-->
-<!--    We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling.-->
-<!--    </p>-->
-<!--  </td>-->
-<!--</tr>-->
-<!--		  -->
-<!--          <tr onmouseout="mira_stop()" onmouseover="mira_start()">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle">-->
-<!--              <div class="one">-->
-<!--                <div class="two" id='mira_image'>-->
-<!--                  <img src='images/mira_after.jpg' width="160"></div>-->
-<!--                <img src='images/mira_before.jpg' width="160">-->
-<!--              </div>-->
-<!--              <script type="text/javascript">-->
-<!--                function mira_start() {-->
-<!--                  document.getElementById('mira_image').style.opacity = "1";-->
-<!--                }-->
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+<heading>Academic Service</heading>
+<td width="75%" valign="center">
+  Reviewer, RA-L, IROS 2023, ICRA 2023, IROS 2022, ICRA 2022
+</td>
 
-<!--                function mira_stop() {-->
-<!--                  document.getElementById('mira_image').style.opacity = "0";-->
-<!--                }-->
-<!--                mira_stop()-->
-<!--              </script>-->
-<!--            </td>-->
-<!--            <td style="padding:20px;width:75%;vertical-align:middle">-->
-<!--              <a href="https://openreview.net/forum?id=AmPeAFzU3a4">-->
-<!--                <papertitle>MIRA: Mental Imagery for Robotic Affordances</papertitle>-->
-<!--              </a>-->
-<!--              <br>-->
-<!--              <a href="https://yenchenlin.me/">Lin Yen-Chen</a>,-->
-<!--              <a href="http://www.peteflorence.com/">Pete Florence</a>,-->
-<!--              <a href="https://andyzeng.github.io/">Andy Zeng</a>, <strong>Jonathan T. Barron</strong>,-->
-<!--              <a href="https://yilundu.github.io/">Yilun Du</a>,-->
-<!--              <a href="https://people.csail.mit.edu/weichium/">Wei-Chiu Ma</a>,-->
-<!--              <a href="https://anthonysimeonov.github.io/">Anthony Simeonov</a>,-->
-<!--              <a href="https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU">Alberto Rodriguez</a>,-->
-<!--              <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>-->
-<!--              <br>-->
-<!--              <em>CoRL</em>, 2022-->
-<!--              <p></p>-->
-<!--              <p>-->
-<!--                NeRF lets us synthesize novel orthographic views that work well with pixel-wise algorithms for robotic manipulation.-->
-<!--              </p>-->
-<!--            </td>-->
-<!--          </tr>-->
 
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-        <heading>Academic Service</heading>
-<!--        </tbody></table>-->
-<!--        <table width="100%" align="center" border="0" cellpadding="20"><tbody>-->
-<!--            <td style="padding:10px;width:15%;vertical-align:middle"><img src="general_images/ieee-ras-logo.png" width="100%"></td>-->
-            <td width="75%" valign="center">
-              Reviewer, RA-L, IROS 2023, ICRA 2023, ICRA 2022, IROS 2022
-            </td>
-          </tr>
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+<heading>Teaching</heading>
+<tr>
+  <td width="100%" valign="center">
+    <a href="https://www.comp.nus.edu.sg/~cs1101s/" class="underline-on-hover">CS1101S Programming Methodology, Fall 2020</a>
+    </br>
+    <a href="https://knmnyn.github.io/cs3244-2210/" class="underline-on-hover">CS3244 Machine Learning, Fall 2022</a>
+    </br>
+    CS5478 Intelligent Robots: Algorithms and Systems, Spring 2023
+  </td>
+</tr>
 
-        </tbody> </table>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-        <heading>Teaching</heading>
-<!--        </tbody></table>-->
-<!--        <table width="100%" align="center" border="0" cellpadding="20"><tbody>-->
-          <tr>
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="general_images/nus-soc-logo.jpeg" width="100%"></td>-->
-            <td width="75%" valign="center">
-              <a href="https://www.comp.nus.edu.sg/~cs1101s/" class="underline-on-hover">CS1101S Programming Methodology, Fall 2020</a>
-              </br>
-              <a href="https://knmnyn.github.io/cs3244-2210/" class="underline-on-hover">CS3244 Machine Learning, Fall 2022</a>
-              </br>
-              CS5478 Intelligent Robots: Algorithms and Systems, Spring 2023
-            </td>
-          </tr>
 
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+<heading>Awards and Honors</heading>
+  <tr>
+    <td width="100%" valign="center">
+    <div>2022: Dean's List (5%), NUS School of Computing </div>
+    <div> 2022: Global Young Scientists Summit 2023, Singapore National Research Foundation </div>
+    <div>2022: <a href="https://www.comp.nus.edu.sg/news/2022-ourp-ocp-2122/" class="underline-on-hover">NUS Outstanding Undergraduate Research Prize</a> (0.4%), NUS </div>
+    <div>2022: <a href="https://www.comp.nus.edu.sg/entrepreneurship/awards/iawinners/" class="underline-on-hover">NUS School of Computing Innovation Prize</a> (0.2%), NUS School of Computing & Singapore Computer Society </div>
+    <div>2022: Certificate of Distinction in AI, NUS School of Computing </div>
+    <div>2022: Certificate for Top Students x 2, NUS School of Computing </div>
+    <div>2021: Certificate for Top Students x 1, NUS School of Computing </div>
+    <div> 2018: NUS Science and Technology Scholarship, NUS & Singapore Ministry of Education </div>
+    </td>
+  </tr>
 
-        <heading>Awards and Honors</heading>
-<!--        </tbody></table>-->
-<!--        <table width="100%" align="center" border="0" cellpadding="20"><tbody>-->
-          <tr>
-            <td width="100%" valign="center">
-            <div>2022: Dean's List (5%), NUS School of Computing </div>
-            <div> 2022: Global Young Scientists Summit 2023, Singapore National Research Foundation </div>
-            <div>2022: <a href="https://www.comp.nus.edu.sg/news/2022-ourp-ocp-2122/" class="underline-on-hover">NUS Outstanding Undergraduate Research Prize</a> (0.4%), NUS </div>
-            <div>2022: <a href="https://www.comp.nus.edu.sg/entrepreneurship/awards/iawinners/" class="underline-on-hover">NUS School of Computing Innovation Prize</a> (0.2%), NUS School of Computing & Singapore Computer Society </div>
-            <div>2022: Certificate of Distinction in AI, NUS School of Computing </div>
-            <div>2022: Certificate for Top Students x 2, NUS School of Computing </div>
-            <div>2021: Certificate for Top Students x 1, NUS School of Computing </div>
-            <div> 2018: NUS Science and Technology Scholarship, NUS & Singapore Ministry of Education </div>
-            </td>
-          </tr>
-					
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                Template from <a href="https://jonbarron.info/" class="underline-on-hover">Jon Barron</a>. Last updated: June 15, 2023
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
-  </table>
+
+</tbody></table>
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+  <tr>
+    <td style="padding:0px">
+      <br>
+      <p style="text-align:right;font-size:small;">
+        Template from <a href="https://jonbarron.info/" class="underline-on-hover">Jon Barron</a>. Last updated: June 15, 2023
+      </p>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
 </body>
-
 </html>
