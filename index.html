@@ -5,10 +5,25 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    /*
+    Set width to 45% when the page size is large; otherwise set a minimum page size.
+     */
       body {
-          width: 45%;
           margin: 0 auto; /* Center the body horizontally */
       }
+
+      @media screen and (min-width: 768px) {
+          body {
+              width: 45%;
+          }
+      }
+
+      @media screen and (max-width: 767px) {
+          body {
+              min-width: 320px; /* Set a minimum width for smaller screens */
+          }
+      }
+
       .underline-on-hover {
         text-decoration: none;
         color: black;
