@@ -1,3 +1,28 @@
+/*
+Set width to 45% when the page size is large; otherwise set a minimum page size.
+*/
+/*body {*/
+/*    margin: 0 auto; !* Center the body horizontally *!*/
+/*}*/
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        min-width: 320px; /* Set a minimum width for smaller screens */
+        width: 90%;  /* Leave some margin */
+    }
+}
+
+div {      /* auto wrap and indent the second line */
+  padding-left: 2.8em;
+  text-indent: -2.8em;
+}
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -74,36 +99,55 @@ a:hover {
   text-decoration: none;
 }
 
-body,
+body {
+    margin: 0 auto; /* Center the body horizontally */
+}
+
 td,
 th,
 tr,
 p,
 a {
+  line-height: 1.2;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 17px
 }
 
 strong {
+  line-height: 1.2;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 heading {
+  line-height: 1.2;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 papertitle {
+  line-height: 1.2;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 700
 }
 
 name {
+  line-height: 1.2;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 42px;
+  font-weight: bold;
 }
+
+/*.venue-name {*/
+/*  display: block; !* or inline-block *!*/
+/*  line-height: 1.2;*/
+/*  font-family: 'Lato', Verdana, Helvetica, sans-serif;*/
+/*  font-size: 16px; !* Adjust the font size *!*/
+/*  !*padding-top: 5px; !* Add padding to the top *!*!*/
+/*  !*padding-bottom: 5px; !* Add padding to the bottom *!*!*/
+/*}*/
 
 .one {
   width: 160px;
@@ -124,6 +168,16 @@ name {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
+}
+
+.underline-on-hover {
+    text-decoration: none;
+    color: black;
+  }
+
+.underline-on-hover:hover {   /* underline text when mouse hovering */
+  text-decoration: underline;
+  color: black;
 }
 
 span.highlight {
